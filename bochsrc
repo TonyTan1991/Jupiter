@@ -1,0 +1,27 @@
+#配置文件注释是‘#’
+#指定内存大小为32MB
+
+megs:512
+ 
+
+#指定要使用的软盘为a.img不知道1_44的意思是不是软盘大小为1.44,
+
+floppya:1_44=Jupiter.img,status=inserted
+vga: extension=vbe
+ 
+
+#使用软盘启动
+
+boot:floppy
+
+#此处不使用鼠标
+
+mouse:enabled=1
+
+ 
+
+#下面这个不知道具体含义
+
+#keyboard_mapping:enabled=1,map=/home/zxx/bochs-2.4.5/gui/keymaps/x11-pc-us.map
+
+
